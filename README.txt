@@ -33,3 +33,17 @@ Options:
   -z SUBDOMAIN  Subdomain mining
   -p SIDE       Side of the station inquiries
   -x HTTP       http status query
+
+I didn't have time to go to school before I uploaded the scripts I finished.
+
+My blog: http://www.cnblogs.com/haq5201314/
+
+These scripts and methods of use are all in my blog. Please dig or use this script.
+
+The updated scripts are as follows:
+cms.py #For mining target CMS targets His accessories are data.json
+csrfjiance.py #Used to detect CSRF vulnerabilities
+sqlzhuruapi.py #This is a script for mass mining site SQL injection
+urltiaozhuan.py #This is a script for mining URL jump holes
+Distinguish.py #This is the two generation of an information collection script
+dianjijieci.py #This is a script that excavated clicking hijacking
