@@ -38,6 +38,12 @@ I didn't have time to go to school before I uploaded the scripts I finished.
 
 My blog: http://www.cnblogs.com/haq5201314/
 
+
+
+
+Distinguish.py用于批量安装工具包，方便大家安装工具
+
+
 These scripts and methods of use are all in my blog. Please dig or use this script.
 
 The updated scripts are as follows:
