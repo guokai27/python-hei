@@ -53,3 +53,18 @@ sqlzhuruapi.py #This is a script for mass mining site SQL injection
 urltiaozhuan.py #This is a script for mining URL jump holes
 Distinguish.py #This is the two generation of an information collection script
 dianjijieci.py #This is a script that excavated clicking hijacking
+
+
+
+python3 exploitsearch.py
+Usage: exploitsearch.py [options]
+
+Options:
+  -h, --help  show this help message and exit
+  -m          Save the home directory in the local area
+  -w          Save all the attack loads of Web
+  -s SEARCH   search exploit
+  -y          Save the Long-range all exploit
+  -b          Save the local all exploit
+
+
