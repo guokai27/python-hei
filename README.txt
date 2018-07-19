@@ -68,3 +68,4 @@ Options:
   -b          Save the local all exploit
 
 
+CVE-2018-2894任意文件上传漏洞检测POC：在Weblogic任意上传文件里面
