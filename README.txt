@@ -69,3 +69,8 @@ Options:
 
 
 CVE-2018-2894任意文件上传漏洞检测POC：在Weblogic任意上传文件里面
+
+
+2018年7月31号新增加的
+dedecms远程文件写入exp 15年的
+phpcms中转注入漏洞批量验证
