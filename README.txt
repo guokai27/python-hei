@@ -119,3 +119,5 @@ uid为0用户
 空密码用户
 zip/tar.gz/sh/pl/py/rb/txt/bak后缀文件
 
+cms_debug是一个集合多种CMS插件的项目 目前版本1.0，已集合Asp_CMS的插件
+Cms_debug is a collection of multiple CMS plug-ins. Now version 1, the plugin that has already assembled Asp_CMS.
