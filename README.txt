@@ -121,3 +121,10 @@ zip/tar.gz/sh/pl/py/rb/txt/bak后缀文件
 
 cms_debug是一个集合多种CMS插件的项目 目前版本1.0，已集合Asp_CMS的插件
 Cms_debug is a collection of multiple CMS plug-ins. Now version 1, the plugin that has already assembled Asp_CMS.
+
+
+WDCP爆破是专门针对wdcp后台进行爆破的
+
+云悉指纹用于识别web指纹
+
+MS17010是自己闲着无聊写的检测脚本
