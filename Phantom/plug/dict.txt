@@ -1,0 +1,5 @@
+/rootbost.txt
+/robots.txt
+/admin
+/error
+/404
