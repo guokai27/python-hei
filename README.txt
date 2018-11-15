@@ -132,3 +132,14 @@ MS17010是自己闲着无聊写的检测脚本
 ECShop-exploit ECSHOP RCE 漏洞复现教程：VULNSPY实验-ECShop <= 2.7.x 全系列版本远程代码执行高危漏洞利用
 
 SPLOITUS抓取了一个不错的exploits搜索引擎
+
+xss_payload
+是用于进行xss检测的
+
+LEFI
+是用于进行文件包含漏洞扫描的
+
+这段时间比较忙没有及时更新写的脚本，在此说声抱歉。很多写过的脚本，具体作用我也忘的差不多了
+请各位自行使用和了解,Thanks
+
+By 九世 time 2018.11.16 0:11
