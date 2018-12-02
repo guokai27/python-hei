@@ -143,3 +143,23 @@ LEFI
 请各位自行使用和了解,Thanks
 
 By 九世 time 2018.11.16 0:11
+
+base64 _injection.py 是用于进行base64注入的脚本，他要求你先填写你的url，在填写里面的id
+例如：http://xxx.com/ss.php?id=MTM
+先填：http://xxx.com/ss.php?id=
+在填ID=13
+此脚本针对无防御的站点
+
+测试站点：http://yyyhhg.com
+
+搜索更多类似的站点:google语法：inurl:.php?id=MTM
+
+Base64_injection.py is a script for base64 injection. It asks you to fill in your URL first and fill in the ID in it.
+For example: http://xxx.com/ss.php?Id=MTM
+First fill in: http://xxx.com/ss.php?Id=
+Filling in ID=13
+This script is for defenseless sites
+Test site: http://yyyhhg.com
+Search for more similar sites: Google grammar: inurl:. php? Id = MTM
+
+By 九世 time:2018/12/2
