@@ -163,3 +163,17 @@ Test site: http://yyyhhg.com
 Search for more similar sites: Google grammar: inurl:. php? Id = MTM
 
 By 九世 time:2018/12/2
+
+c2项目是我第一个接触c2通信所写出来的脚本
+具体使用方法：
+server:demo.py IP port or demo.exe IP port
+client:修改gc.html里的连接配置http://127.0.0.1/gc.html，连接服务器并执行命令（可过360）
+视频:[c2通信实现—其他—视频高清在线观看-优酷](https://v.youku.com/v_show/id_XMzk2NDI2MjI0MA==.html?spm=a2hzp.8253869.0.0)
+
+
+C2 project is my first script to contact C2 communication
+Specific methods of use:
+Server: demo.py IP port or demo.exe IP port
+Client: Modify the connection configuration in gc.html http://127.0.0.1/gc.html, connect to the server and execute commands (up to 360)
+
+BY 九世 2018/12/14
