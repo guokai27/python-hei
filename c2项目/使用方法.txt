@@ -1,0 +1,5 @@
+修改gc.html的websocket连接地址
+然后将脚本或exe上传到目标服务器运行，用法：demo.exe IP port or demo.py IP port
+然后在本地打开gc.html连接服务器执行命令即可
+
+（可过360）
