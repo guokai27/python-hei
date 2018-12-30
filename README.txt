@@ -177,3 +177,9 @@ Server: demo.py IP port or demo.exe IP port
 Client: Modify the connection configuration in gc.html http://127.0.0.1/gc.html, connect to the server and execute commands (up to 360)
 
 BY 九世 2018/12/14
+
+新c2是我重新写的一个，他支持端口扫描，交互式的shell，文件上传，Linux后渗透信息收集。不足：有一定的BUG，但是服务端不会断开连接。
+
+The new c2, which I rewrote, supports port scanning, interactive shell, file upload, and post-Linux infiltration for information collection. Insufficiency: There are some BUGs, but the server will not disconnect.
+
+By 九世 2018/12/30
