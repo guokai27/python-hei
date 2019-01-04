@@ -183,3 +183,22 @@ BY 九世 2018/12/14
 The new c2, which I rewrote, supports port scanning, interactive shell, file upload, and post-Linux infiltration for information collection. Insufficiency: There are some BUGs, but the server will not disconnect.
 
 By 九世 2018/12/30
+
+更新了一个wifi_dos攻击脚本
+功能有：
+一键开启网卡监听模式
+MAC洪水攻击
+Deauch攻击
+SSID扫描
+
+Update a wifi_dos attack script
+The functions are:
+One-click Open Network Card Monitoring Mode
+MAC flood attack
+Deauch attack
+SSID scan
+
+祝各位新的一年新年快乐
+Happy New Year to you all
+
+By 九世 2019/1/4
