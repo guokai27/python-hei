@@ -202,3 +202,11 @@ SSID scan
 Happy New Year to you all
 
 By 九世 2019/1/4
+
+2019/1/11添加了新的thinkphp_5.* 远程代码执行利用脚本
+支持单个利用，与批量
+
+New thinkphp_5. * Remote Code Execution Utilization Script was added to 2019/1/11
+Support single use, batch
+
+By 九世 2019/1/11
