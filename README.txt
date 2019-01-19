@@ -210,3 +210,11 @@ New thinkphp_5. * Remote Code Execution Utilization Script was added to 2019/1/1
 Support single use, batch
 
 By 九世 2019/1/11
+
+更新了之前写的网易云音乐搜索，其实这个就是抓网易云对应的音乐ID，然后去指定的地方下载
+补天爬虫，为了方便各位挖洞者收集URL，做了个对应的爬虫。具体看里面的使用说明，可爬公益SRC和专属SRC子域名批量查询和单个查询
+
+Update the previous written music search of Netease Cloud, in fact, this is the corresponding music ID of Netease Cloud, and then go to the designated place to download.
+Butian crawler, in order to facilitate the excavators to collect URLs, made a corresponding crawler. See the instructions in detail, you can climb public SRC and exclusive SRC subdomain name batch query and single query.
+
+By 九世 2019/1/19
