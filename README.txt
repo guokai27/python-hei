@@ -218,3 +218,10 @@ Update the previous written music search of Netease Cloud, in fact, this is the 
 Butian crawler, in order to facilitate the excavators to collect URLs, made a corresponding crawler. See the instructions in detail, you can climb public SRC and exclusive SRC subdomain name batch query and single query.
 
 By 九世 2019/1/19
+
+UAC旁路是为了以后后渗透好做事所写
+参考文章来源于：http://www.ggsec.cn
+
+UAC Bypass is written to infiltrate good work in the future.
+Reference article from: http://www.ggsec.cn
+By 九世 2019/1/24
