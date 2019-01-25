@@ -225,3 +225,9 @@ UAC旁路是为了以后后渗透好做事所写
 UAC Bypass is written to infiltrate good work in the future.
 Reference article from: http://www.ggsec.cn
 By 九世 2019/1/24
+
+windows文件查询用于查询页面指定的路径，用于后渗透方便探索目标windows有没有敏感路径或者日志等等。由于方便携带我将其用url来解析获取路径在进行查询。windows-file.txt就是，扔到web容器下用windows-file.py输入url路径即可
+
+Windows file query is used to query the path specified by the page, and it can be used to penetrate into the target windows to find out whether there are sensitive paths or logs, etc. Because it is easy to carry, I use URL to parse the access path and query it. Windows-file.txt is to throw it under the web container and enter the URL path with windows-file.py.
+
+By 九世 2019/1/25
