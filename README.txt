@@ -244,3 +244,9 @@ Your apache directory, Linux, he will automatically help you move, windows will 
 Chm fishing: https://422926799.github.io/2019/01/27/Chm-fishing/
 
 By IX 2019/1/27
+
+CVE-2018-18852是cerio路由器的CVE，github上有py2的，我这里写了个py3的
+
+CVE-2018-18852 is the CVE of the cerio router, py2 on the github, I wrote a py3 here.
+
+By 九世 2019/1/30
