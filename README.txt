@@ -250,3 +250,9 @@ CVE-2018-18852是cerio路由器的CVE，github上有py2的，我这里写了个p
 CVE-2018-18852 is the CVE of the cerio router, py2 on the github, I wrote a py3 here.
 
 By 九世 2019/1/30
+
+新增了一个子域名爆破，具体请看：https://422926799.github.io/2019/02/03/Subdomain-blasting/
+
+Added a sub-domain blast, see: https://422926799.github.io/2019/02/03/Subdomain-blasting/
+
+By 九世 2019/2/3
