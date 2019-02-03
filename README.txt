@@ -255,4 +255,8 @@ By 九世 2019/1/30
 
 Added a sub-domain blast, see: https://422926799.github.io/2019/02/03/Subdomain-blasting/
 
+By 九世 2019/2/2
+
+子域名爆破改进版，子域名爆破.rar那个
+
 By 九世 2019/2/3
