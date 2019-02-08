@@ -262,6 +262,6 @@ By 九世 2019/2/2
 By 九世 2019/2/3
 
 子域名爆破新增加了端口扫描和网页截图，不是rar的那个，适用于windows。如果Linux用户请自行下载Chrome的驱动和浏览器
-扔到脚本目录，驱动下载地址：https://sites.google.com/a/chromium.org/chromedriver/downloads
+扔到脚本目录，驱动下载地址：https://sites.google.com/a/chromium.org/chromedriver/downloads，指定端口扫描，不要把80和443去掉。
 
 By 九世 2019/2/9
