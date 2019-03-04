@@ -1,3 +1,8 @@
+
+MUSIC:
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1298647136&auto=1&height=66"></iframe>
+
 Hacker information collection, used to collect information about the target.
 Direct operation of specific usage.
 Example:
@@ -285,3 +290,11 @@ by 九世 2019/2/16
 ICMP远控是基于ICMP协议来进行互相交流通信的C2，需要安装scapy模块，至于打包成exe测试本人没成功= =。各位朋友自行测试，对了记得修改client.py和server.py的监听地址。这个我不想单独开个仓库来放，感觉写的烂。至于这个工具的原理，我会在我博客里面说，得等到星期六
 
 by 九世 2019/2/27
+
+jirb支持黑名单过滤，整个文件夹下的字典爆破，指定字典爆破，wordlist里面集成了dirb的字典和御剑与收集来的字典。爆破整个文件夹的下的字典时，config.ini default_file就设置为空，爆破指定文件的时候就反过来
+
+by 九世 2019/3/5
+
+psfvenom纯属闲着蛋疼写的，突然懒到连命令都不想打随便把几个常用的扔在了一起。方便快速生成
+
+by 九世 2019/3/5
