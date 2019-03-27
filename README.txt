@@ -303,3 +303,7 @@ By 九世 2019/3/11
 https://github.com/422926799/python/tree/master/RID%E5%8A%AB%E6%8C%81
 
 By 九世 2019/3/26
+
+朋友托我写几个awd的脚本给他，先从防御开始写吧，会持续更新
+
+By 九世 2019/3/27
