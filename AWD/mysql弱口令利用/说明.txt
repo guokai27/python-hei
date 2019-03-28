@@ -1,0 +1,9 @@
+用于phpmyadmin爆破成功后用来连接数据库进行利用，使用之前先用处理文件夹下的phpmyadmin_chuli.py处理好生成cl.txt
+将目录下的exec.php放入phpstudy网站目录下或者php环境网站目录下
+批量连接并执行mysql的时候请输入文件
+
+文件内容格式如:
+
+host=xxx
+user=xxx
+password=xxx

