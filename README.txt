@@ -311,3 +311,10 @@ By 九世 2019/3/27
 windows创建隐藏账户脚本
 
 By 九世 2019/3/31
+
+CVE-2019-3395和3396爆出来有几天了，几天抽了个时间写了一下，内带测试url
+要更多的url的话
+fofa搜:Confluence
+zoomeye搜:app:"Confluence"
+
+By 九世 2019/4/11
