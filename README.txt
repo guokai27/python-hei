@@ -318,3 +318,11 @@ fofa搜:Confluence
 zoomeye搜:app:"Confluence"
 
 By 九世 2019/4/11
+
+CVE定时更新，今天在看RSS的时候看到一篇文章说到了定时监控CVE更新
+
+然后给出了一个接口：https://cassandra.cerias.purdue.edu/CVE_changes/today.html
+
+这个接口每天会更新新的CVE，个人感觉不错索性爬了，会将抓到的详情CVE ur写入到以时间戳命名xls
+
+By 九世 2019/4/14
