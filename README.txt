@@ -343,4 +343,6 @@ By 九世 2019/4/26
 
 domain_query这个东东是用来批量查询子域名和爆破子域名的
 
+参考文章:https://www.freebuf.com/vuls/198327.html
+
 By 九世 2019/4/26
