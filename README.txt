@@ -331,7 +331,7 @@ By 九世 2019/4/14
 
 By 九世 2019/4/20
 
-CVE-2019-48814利用工具是最近爆出来的weblogic反序列化RCE
+CNVD-2019-48814利用工具是最近爆出来的weblogic反序列化RCE
 
 详细文章可参考:https://www.jianshu.com/p/c4982a845f55
 
