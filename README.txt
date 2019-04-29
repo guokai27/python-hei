@@ -346,3 +346,83 @@ domain_query这个东东是用来批量查询子域名和爆破子域名的
 参考文章:https://www.freebuf.com/vuls/198327.html
 
 By 九世 2019/4/26
+
+
+
+pirb目录探测工具，使用多进程+协程而写的，使用方法是
+
+python3 pirb.py -u [url地址] -f [文件夹路径/] -s [匹配的状态码] -b [黑名单] -t [延时]
+
+Usage: usage:[-u 地址] [-f 文件夹] [-s 匹配的状态码] 【- b 黑名单】 [-t 延时]
+
+Options:
+  -h, --help      show this help message and exit
+  -u URL          指定目标url
+  -f FILE         存放目录字典的文件夹
+  -s STATUS_CODE  匹配指定的状态码
+  -b BLACK        过滤掉黑名单里的字符
+  -t SLEEPS       扫描延时
+
+会过滤掉黑名单里面的内容，如果不匹配黑名单，请将黑名单留空
+
+测试结果
+
++找到路径:http://p.lslgzn.com/index.php/Loan/index
++找到路径:http://p.lslgzn.com/index.php/search.html
++找到路径:http://p.lslgzn.com/index.php/dance/so/key/%27
++找到路径:http://p.lslgzn.com/index.php/user/blog/del
++找到路径:http://p.lslgzn.com/index.php/user/edit/pass_save
++找到路径:http://p.lslgzn.com/apps/..
++找到路径:http://p.lslgzn.com/index.php/u/littlebirb
++找到路径:http://p.lslgzn.com/index.php/Public/login
++找到路径:http://p.lslgzn.com/index.php/home/userinfo/chgrejpro/id/197
++找到路径:http://p.lslgzn.com/index.php/home/userinfo/chgrejpro/id/196
++找到路径:http://p.lslgzn.com/admin.php/Main
++找到路径:http://p.lslgzn.com/index.php/2013/10/04/zabbix-sql-injectionrce-cve-2013-5743/
++找到路径:http://p.lslgzn.com/index.php/stat/viewStat
++找到路径:http://p.lslgzn.com/index.php/hotels
++找到路径:http://p.lslgzn.com/index.php/hotels/book
++找到路径:http://p.lslgzn.com/index.php/project/index/detail
++找到路径:http://p.lslgzn.com/index.php/index.php/user/getchannellist
++找到路径:http://p.lslgzn.com/index.php/Home/Index/attention_ajax
++找到路径:http://p.lslgzn.com/.
++找到路径:http://p.lslgzn.com/index.php/csvk_listed4/id/351
++找到路径:http://p.lslgzn.com/index.php/Home/Exchange/postsList/id/2131/type/2.html
++找到路径:http://p.lslgzn.com/index.php/Product/index
++找到路径:http://p.lslgzn.com/index.php/New/collist/colid/-7678
++找到路径:http://p.lslgzn.com/index.php/New/collist/colid/38
++找到路径:http://p.lslgzn.com/index.php/home/website/get_link
++找到路径:http://p.lslgzn.com/index.php/News/detail
++找到路径:http://p.lslgzn.com/index.php/Content/index/type/85.html
++找到路径:http://p.lslgzn.com/index.php/Content/index/type/209.html
++找到路径:http://p.lslgzn.com/index.php/kebi/
++找到路径:http://p.lslgzn.com/index.php/Ask/index/p/0/type/if
++找到路径:http://p.lslgzn.com/index.php/Index/login
++找到路径:http://p.lslgzn.com/index.php/login.in
++找到路径:http://p.lslgzn.com/index.php/Home/GetPass/index
++找到路径:http://p.lslgzn.com/index.php/wse/callBack/DiffReCrawlCallBack/
++找到路径:http://p.lslgzn.com/index.php/login/index/
++找到路径:http://p.lslgzn.com/index.php/Index/view
++找到路径:http://p.lslgzn.com/index.php/wse/patchPageShow/contEvalPageShow
++找到路径:http://p.lslgzn.com/index.php/show/index/17
++找到路径:http://p.lslgzn.com/index.php/user/index/num/-100496%20union%20select%20%20concat
++找到路径:http://p.lslgzn.com/index.php/Ask/index/p/0/type/
++找到路径:http://p.lslgzn.com/index.php/passport/passport/sel_region
++找到路径:http://p.lslgzn.com/index.php/ceo8/score_a
++找到路径:http://p.lslgzn.com/.
++找到路径:http://p.lslgzn.com/index.php/Ask/index/p/0/type/-5202
++找到路径:http://p.lslgzn.com/index.php/News/contentpage
++找到路径:http://p.lslgzn.com/index.php/user/index/num/-100496
++找到路径:http://p.lslgzn.com/index.php/user/index/num/100496%20order%20by%201
++找到路径:http://p.lslgzn.com/index.php/H
++找到路径:http://p.lslgzn.com/index.php/Public/login/
++找到路径:http://p.lslgzn.com/index.php/sign/qq_callback
++找到路径:http://p.lslgzn.com/index.php/Home/article/detailPage/parentI
++找到路径:http://p.lslgzn.com/index.php/index/login
++找到路径:http://p.lslgzn.com/index.php/user/uploadtwo
++找到路径:http://p.lslgzn.com/index.php/api/goods/getList
++找到路径:http://p.lslgzn.com/index.php/api/goods/getTransactionList
++找到路径:http://p.lslgzn.com/index.php/system/account_saveaccount.php
+
+
+By 九世 20119/4/29
