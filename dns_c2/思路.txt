@@ -1,0 +1,33 @@
+dnslib模块是用来解析dns包的模块
+dnspython用于发送dns请求包
+
+dnslib模块包介绍:https://bitbucket.org/paulc/dnslib/
+
+dns C2思路:通信协议使用dns协议完成，支持文件上传和文件下载，支持命令
+执行。使用AES加密通道
+
+参考项目:https://github.com/ahhh/Reverse_DNS_Shell/
+AES加密参考:https://blog.csdn.net/hh775313602/article/details/78991340
+
+使用者需要安的模块:
+dnspython3,Crypto,dnslib
+
+2019/5/2问题：
+Traceback (most recent call last):
+  File "I:/jb/dns_c2/dns_client.py", line 140, in <module>
+    obk.beikon()
+  File "I:/jb/dns_c2/dns_client.py", line 27, in beikon
+    hk[jm]()
+  File "I:/jb/dns_c2/dns_client.py", line 103, in cmd
+    self.beikon()
+  File "I:/jb/dns_c2/dns_client.py", line 24, in beikon
+    jm = self.jiemi(kk.encode('utf-8'))
+  File "I:/jb/dns_c2/dns_client.py", line 55, in jiemi
+    decode_encrypd = aes.decrypt(base64.decodebytes(data))
+  File "C:\Program Files\Python37\lib\base64.py", line 546, in decodebytes
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+执行了cmd后退出在执行别的操作有问题，明天起床用wireshark抓包或者debug一波
+
+2019/5/2 10:45已解决这个问题
